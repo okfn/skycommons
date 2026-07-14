@@ -1,0 +1,44 @@
+{
+  "header": {
+    "section": "SkyCommons Observatory | Space belongs to everyone",
+    "title": "Who controls satellite internet?",
+    "text": "We’re tracking who profits from connectivity in space and who gets left behind.",
+    "cta": {
+      "title": "Explore satellites",
+      "link": "/satellites"
+    }
+  },
+  "introduction": {
+    "title": "A few companies control everything. One dominates.",
+    "text": "Around the world, governments are striking deals with satellite internet providers with little to no oversight. Mostly, it’s with Starlink."
+  },
+  "countries": {
+    "section": "Research",
+    "title": "Mapping power, exposing risks",
+    "subline": "We did a baseline study of how LEO satellite internet was rolled out in six countries and scored them on key public-interest principles, including governance and accountability.",
+    "text": "Local researchers in each country collected data about the markets and politics surrounding the introduction of LEO satellite services. Each country represents a distinct social and geographic context, including conflict, high and low internet connectivity.",
+    "cta": {
+      "title": "Explore the research",
+      "link": "/countries"
+    }
+  },
+  "satellite": {
+    "section": "Top",
+    "title": "Satellite Internet Providers",
+    "text": "Five companies are especially visible in space, but one dominates above all others: Starlink, owned by SpaceX. ",
+    "cta": {
+      "title": "Explore satellites",
+      "link": "/satellites"
+    }
+  },
+  "information": {
+    "title": "Who are we?",
+    "text": "SkyCommons Observatory is a Frontiers of Openness initiative of the <a href='https://okfn.org/' target='_blank'>Open Knowledge Foundation</a> to map power, expose risks, and advance public-interest principles, such as openness, interoperability, and accountability into the technical and legal frameworks that govern our common skies—starting with LEO satellite infrastructure. Our aim is to expand this prototype into a permanent global monitoring node that serves as a shared platform for data and research curation, coordination, and advocacy.",
+    "ctas": [
+      {
+        "title": "About this project",
+        "link": "/about"
+      }
+    ]
+  }
+}

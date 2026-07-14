@@ -1,0 +1,181 @@
+{
+  "id": "brazil",
+  "name": "Brazil",
+  "iso_code": "BR",
+  "region": "Americas",
+  "report_date": "March 2026",
+  "risk_level": "high",
+  "providers": {
+    "authorized": 5,
+    "operational": 2
+  },
+  "card_title": "Executive Lobbying and the Quest for Autonomy",
+  "card_blurb": "Brazil is Starlink's second-largest global market, with 250,000 active users and 85% annual growth in 2025. Despite strong urban penetration, only 22% of Brazilians meet 'meaningful connectivity' standards.",
+  "header_info": "5 providers authorized · 250,000 Starlink subscribers · R$102,677 licensing fee until 2027",
+  "key_finding": "R$102,677 in licensing fees for rights worth billions — less than R$5 per satellite per year",
+  "comparative_analysis": {
+    "primary_driver": {
+      "label": "Executive Lobbying",
+      "description": "The authorization was actively engineered by the Bolsonaro government, which lobbied the regulator and met directly with SpaceX weeks before the regulatory framework was active."
+    },
+    "local_presence": {
+      "label": "Local Subsidiary",
+      "description": "Starlink operates via Starlink Brazil Holding Ltda. and holds an exploitation right for spectrum and a retail broadband license."
+    },
+    "competition": {
+      "label": "Near-Monopoly",
+      "description": "While five providers are authorized on paper, the market is in practice a near-monopoly where Starlink is the only operational consumer LEO player at scale."
+    },
+    "key_gap": {
+      "label": "Digital Sovereignty",
+      "description": "The framework initially lacked data localization requirements, space sustainability rules, and mechanisms for state control during geopolitical disputes."
+    }
+  },
+  "quote": null,
+  "quote_attribution": null,
+  "summary": "Brazil is Starlink's second-largest global market, with 250,000 active users and 85% annual growth in 2025. Despite 85% urban internet penetration, only 22% of Brazilians meet 'meaningful connectivity' standards, exposing a sharp class divide: 83% of Class A households are meaningfully connected versus just 1% of Class DE. The government granted Starlink exploitation rights for R$102,677 until 2027 — less than R$5 per satellite per year — raising serious questions about regulatory capture. The 2024 X/Twitter ban crisis, in which Musk threatened to defy Brazilian court orders, prompted the reactive authorization of SpaceSail as a geopolitical hedge. Meanwhile, 50 Starlink terminals were seized from illegal mining operations in Yanomami indigenous territory, illustrating the governance vacuum around infrastructure misuse.",
+  "timeline": [
+    {
+      "provider": "Starlink",
+      "info": "First mention",
+      "date": "2020-12",
+      "category": "contact"
+    },
+    {
+      "provider": "Starlink",
+      "info": "First formal step",
+      "date": "2021-11",
+      "category": "contact"
+    },
+    {
+      "provider": "Starlink",
+      "info": "Authorization",
+      "date": "2022-02-07",
+      "category": "authorization"
+    },
+    {
+      "provider": "Starlink",
+      "info": "Service launch",
+      "date": "2022-05",
+      "category": "launch"
+    },
+    {
+      "provider": "Telesat",
+      "info": "First mention",
+      "date": "2021-10",
+      "category": "contact"
+    },
+    {
+      "provider": "Telesat",
+      "info": "Authorization",
+      "date": "2022-05-19",
+      "category": "authorization"
+    },
+    {
+      "provider": "OneWeb",
+      "info": "Authorization",
+      "date": "2022-07-15",
+      "category": "authorization"
+    },
+    {
+      "provider": "OneWeb",
+      "info": "Service launch",
+      "date": "2023-03",
+      "category": "launch"
+    },
+    {
+      "provider": "Amazon Kuiper",
+      "info": "Authorization",
+      "date": "2022-12",
+      "category": "authorization"
+    },
+    {
+      "provider": "SpaceSail",
+      "info": "First mention",
+      "date": "2024-08",
+      "category": "contact"
+    },
+    {
+      "provider": "SpaceSail",
+      "info": "Authorization",
+      "date": "2026-02-12",
+      "category": "authorization"
+    },
+    {
+      "provider": "SpaceSail",
+      "info": "Service launch (expected)",
+      "date": "2026-Q4",
+      "category": "launch"
+    }
+  ],
+  "market_structure": {
+    "providers": [
+      {
+        "name": "Starlink",
+        "local_entity": "Starlink Brazil Holding Ltda.",
+        "status": "operational"
+      },
+      {
+        "name": "OneWeb",
+        "local_entity": null,
+        "status": "operational"
+      },
+      {
+        "name": "Telesat",
+        "local_entity": null,
+        "status": "authorized"
+      },
+      {
+        "name": "Amazon Kuiper",
+        "local_entity": null,
+        "status": "authorized"
+      },
+      {
+        "name": "SpaceSail",
+        "local_entity": null,
+        "status": "authorized"
+      }
+    ],
+    "licensing_pathway": "Fast-tracked",
+    "licensing_pathway_note": "RGSat (Resolution 748/2021) — authorization process heavily influenced by political lobbying from the Bolsonaro government; a ten-day public comment window applied to exploitation rights applications, very short by comparative regulatory standards."
+  },
+  "governance_scorecard": {
+    "qos_obligations": false,
+    "outage_reporting_required": false,
+    "local_data_landing_mandate": false,
+    "local_partner_requirement": false,
+    "foreign_ownership_exception": false,
+    "public_consultation": true,
+    "cybersecurity_audit": false,
+    "summary_note": "1 of 7 governance indicators met. A ten-day public comment window existed but was criticized as too brief; no cybersecurity, QoS, or data residency obligations were included."
+  },
+  "red_flags": [
+    {
+      "severity": "critical",
+      "text": "Licensing fee of R$102,677 for exploitation rights until 2027 — less than R$5 per satellite per year"
+    },
+    {
+      "severity": "high",
+      "text": "Authorization process influenced by political lobbying; 8 formal government meetings with Starlink in one year"
+    },
+    {
+      "severity": "high",
+      "text": "50 Starlink terminals seized from illegal mining and deforestation operations in Yanomami territory"
+    },
+    {
+      "severity": "high",
+      "text": "SpaceSail (China) authorized as reactive geopolitical hedge — not through structured sovereignty policy"
+    },
+    {
+      "severity": "moderate",
+      "text": "Meaningful connectivity gap: 83% Class A vs 1% Class DE — LEO growth not reaching the most underserved"
+    }
+  ],
+  "policy_levers": [
+    "Multi-constellation mandate to reduce single-provider dependency",
+    "Fair contribution mechanism to Universal Service Funds",
+    "Transparent, public-interest licensing reform",
+    "Local data landing requirements",
+    "Meaningful connectivity standards linked to licensing conditions"
+  ]
+}

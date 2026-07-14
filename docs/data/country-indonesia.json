@@ -1,0 +1,118 @@
+{
+  "id": "indonesia",
+  "name": "Indonesia",
+  "iso_code": "ID",
+  "region": "Asia-Pacific",
+  "report_date": "2026",
+  "risk_level": "high",
+  "providers": {
+    "authorized": 3,
+    "operational": 3
+  },
+  "card_title": "The \"Red Carpet\" and the Local ISP Tension",
+  "card_blurb": "In 2024, Starlink officially launched in Indonesia following years of personal lobbying by President Joko Widodo. With 12,548 villages still signal blank spots, Starlink has instead entered urban markets where connectivity already exists.",
+  "header_info": "3 providers operational · 80.5% internet penetration · 12,548 villages remain blank spots",
+  "key_finding": "Starlink licensed in urban markets where connectivity already exists — while 12,548 villages remain blank spots",
+  "comparative_analysis": {
+    "primary_driver": {
+      "label": "Executive Lobbying",
+      "description": "Starlink officially launched in Indonesia following years of personal lobbying by President Joko Widodo."
+    },
+    "local_presence": {
+      "label": "SSI Subsidiary",
+      "description": "Starlink established its subsidiary in Indonesia under the name PT Starlink Services Indonesia (SSI) to engage in satellite telecommunications and internet services."
+    },
+    "competition": {
+      "label": "Local ISP Tension",
+      "description": "Local industry associations have accused the government of rolling out a \"red carpet\" for foreign entities while local players face strict regulatory burdens."
+    },
+    "key_gap": {
+      "label": "Predatory Pricing",
+      "description": "Local internet service providers argue that Starlink could put them out of business by offering prices below market standards."
+    }
+  },
+  "quote": null,
+  "quote_attribution": null,
+  "summary": "Indonesia licensed Starlink as a VSAT provider and ISP in May 2024 following direct lobbying by then-President Joko Widodo — a process widely described as 'red carpet' treatment. With 80.5% internet penetration across ~230 million users, Indonesia has real connectivity but acute rural gaps: 12,548 villages remain signal blank spots, mostly in 3T (remote/frontier/outermost) regions. Rather than concentrating on these underserved areas, Starlink has entered urban markets, alarming local ISPs who fear predatory pricing. The government-owned SATRIA-1 (150 Gbps capacity) exists as a parallel infrastructure, but no coordination framework between national and commercial LEO systems has been established. LEO accounts for just 1.05% of fixed broadband subscriptions in 2025.",
+  "timeline": [
+    {
+      "provider": "Starlink",
+      "info": "First public lobbying",
+      "date": "2020",
+      "category": "contact"
+    },
+    {
+      "provider": "Starlink",
+      "info": "First landing rights",
+      "date": "2022-06",
+      "category": "contact"
+    },
+    {
+      "provider": "Starlink",
+      "info": "Authorization (VSAT/ISP)",
+      "date": "2024-05",
+      "category": "authorization"
+    },
+    {
+      "provider": "Starlink",
+      "info": "Service launch",
+      "date": "2024-05-19",
+      "category": "launch"
+    }
+  ],
+  "market_structure": {
+    "providers": [
+      {
+        "name": "Starlink",
+        "local_entity": "PT Starlink Services Indonesia (SSI)",
+        "status": "operational"
+      },
+      {
+        "name": "SATRIA-1",
+        "local_entity": "Government of Indonesia",
+        "status": "operational"
+      },
+      {
+        "name": "Telkomsat/PSN",
+        "local_entity": null,
+        "status": "operational"
+      }
+    ],
+    "licensing_pathway": "Fast-tracked",
+    "licensing_pathway_note": "Licensed as a VSAT provider and ISP in May 2024, preceded by direct lobbying by President Joko Widodo; described in sources as 'red carpet' treatment with no adequate consultation with the national industry."
+  },
+  "governance_scorecard": {
+    "qos_obligations": false,
+    "outage_reporting_required": false,
+    "local_data_landing_mandate": false,
+    "local_partner_requirement": false,
+    "foreign_ownership_exception": false,
+    "public_consultation": false,
+    "cybersecurity_audit": false,
+    "summary_note": "0 of 7 governance indicators met. A mandatory cybersecurity audit is explicitly identified in the source as a governance gap ('what's missing'), i.e. currently absent."
+  },
+  "red_flags": [
+    {
+      "severity": "critical",
+      "text": "Starlink licensed in urban markets where connectivity exists — while 12,548 villages remain signal blank spots"
+    },
+    {
+      "severity": "high",
+      "text": "'Red carpet' treatment — Starlink licensing preceded by direct President Jokowi lobbying (May 2024)"
+    },
+    {
+      "severity": "high",
+      "text": "Local ISPs face predatory pricing with no regulatory protection framework"
+    },
+    {
+      "severity": "moderate",
+      "text": "No coordination framework between government-owned SATRIA-1 and commercial LEO providers"
+    }
+  ],
+  "policy_levers": [
+    "Rural-only licensing conditions for foreign LEO operators",
+    "Local ISP protection and transition framework",
+    "Coordination mandate between national satellite (SATRIA-1) and commercial LEO",
+    "Interoperability mandate to prevent hardware lock-in"
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": "malaysia",
+  "name": "Malaysia",
+  "iso_code": "MY",
+  "region": "Asia-Pacific",
+  "report_date": "2026",
+  "risk_level": "moderate",
+  "providers": {
+    "authorized": 3,
+    "operational": 2
+  },
+  "card_title": "Strategic Alliances and Foreign Ownership Exceptions",
+  "card_blurb": "Malaysia granted Starlink approval to operate as a 100% foreign-owned entity in July 2023, an exception to the standard 49% foreign equity cap for license holders — following a direct video call between PM Anwar Ibrahim and Elon Musk.",
+  "header_info": "3 providers authorized · 98% internet penetration · 100% foreign ownership granted to Starlink",
+  "key_finding": "100% foreign ownership granted to Starlink — the only company exempted from Malaysia's 49% equity cap for telecoms",
+  "comparative_analysis": {
+    "primary_driver": {
+      "label": "Economic Investment",
+      "description": "This decision followed a video call between Prime Minister Anwar Ibrahim and Elon Musk where both agreed to strengthen the investment relationship."
+    },
+    "local_presence": {
+      "label": "100% Foreign Owned",
+      "description": "Malaysia granted Starlink a rare exception to operate as a fully foreign-owned entity despite the standard 49% foreign equity cap."
+    },
+    "competition": {
+      "label": "MEASAT Alliances",
+      "description": "The local incumbent MEASAT has formed alliances with Chinese LEO firms like Shanghai Spacesail to explore satellite-based IoT."
+    },
+    "key_gap": {
+      "label": "Data Governance",
+      "description": "The country lacks a unified framework integrating privacy, cybersecurity, and competition, leading to an asymmetry between public and private sector accountability."
+    }
+  },
+  "quote": null,
+  "quote_attribution": null,
+  "summary": "Malaysia presents the starkest case of regulatory exception among the studied countries. Starlink was licensed in July 2023 following a direct video call between Prime Minister Anwar Ibrahim and Elon Musk — and was granted 100% foreign ownership, bypassing the standard 49% equity cap applied to all other foreign telecoms operators. With 98% internet penetration, Malaysia's headline connectivity figures are strong. Yet only 46.7% of households have fixed broadband, and the complete absence of a unified framework for privacy, cybersecurity, and cross-border data governance leaves the country structurally exposed. Local player Angkasa-X launched its first LEO satellite in June 2023, but remains operationally limited. The government has simultaneously ordered 40 Starlink devices for immediate deployment in schools and universities.",
+  "timeline": [
+    {
+      "provider": "Starlink",
+      "info": "First public mention",
+      "date": "2023-07-15",
+      "category": "contact"
+    },
+    {
+      "provider": "Starlink",
+      "info": "Authorization",
+      "date": "2023-07-25",
+      "category": "authorization"
+    }
+  ],
+  "market_structure": {
+    "providers": [
+      {
+        "name": "Starlink",
+        "local_entity": null,
+        "status": "operational"
+      },
+      {
+        "name": "OneWeb",
+        "local_entity": null,
+        "status": "operational"
+      },
+      {
+        "name": "Angkasa-X",
+        "local_entity": "Local player",
+        "status": "authorized"
+      }
+    ],
+    "licensing_pathway": "Regulatory Exception",
+    "licensing_pathway_note": "Licensing followed a direct video call between PM Anwar Ibrahim and Elon Musk; a 100% foreign ownership exception was granted, versus the standard 49% equity cap."
+  },
+  "governance_scorecard": {
+    "qos_obligations": false,
+    "outage_reporting_required": false,
+    "local_data_landing_mandate": false,
+    "local_partner_requirement": false,
+    "foreign_ownership_exception": true,
+    "public_consultation": false,
+    "cybersecurity_audit": false,
+    "summary_note": "1 of 7 governance indicators present, and it is a negative exception rather than a protection: a 100% foreign ownership exception was granted, unique among studied countries."
+  },
+  "red_flags": [
+    {
+      "severity": "critical",
+      "text": "100% foreign ownership exception granted to Starlink — the only company exempted from Malaysia's standard 49% equity cap"
+    },
+    {
+      "severity": "high",
+      "text": "Licensing followed a direct PM video call with Elon Musk — no public consultation or competitive process"
+    },
+    {
+      "severity": "high",
+      "text": "No unified framework for privacy, cybersecurity, or cross-border data governance"
+    },
+    {
+      "severity": "moderate",
+      "text": "46.7% fixed broadband penetration despite 98% internet use — structural dependency on mobile/satellite"
+    }
+  ],
+  "policy_levers": [
+    "Enforcement of equity cap parity for all foreign telecoms operators",
+    "Unified data governance and cybersecurity framework",
+    "Local player capacity building and protection",
+    "Transparent competitive licensing process"
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "id": "ukraine",
+  "name": "Ukraine",
+  "iso_code": "UA",
+  "region": "Europe",
+  "report_date": "2026",
+  "risk_level": "moderate",
+  "providers": {
+    "authorized": 2,
+    "operational": 2
+  },
+  "card_title": "Wartime Emergency and the Quest for Autonomy",
+  "card_blurb": "For Ukraine, LEO satellites are a survival tool. Following the 2022 invasion, Starlink became the backbone of military and civilian resilience — but geofencing restrictions in occupied territories exposed the cost of single-provider dependency.",
+  "header_info": "2 providers operational · 160,000+ terminals nationwide · $634M national satellite project underway",
+  "key_finding": "100,000 military terminals dependent on a single foreign provider — geofencing restrictions have already constrained operations in occupied territories",
+  "comparative_analysis": {
+    "primary_driver": {
+      "label": "National Defense",
+      "description": "For Ukraine, LEO satellites are a survival tool that has become the backbone of military and civilian resilience."
+    },
+    "local_presence": {
+      "label": "Whitelist System",
+      "description": "In 2026, the Ministry of Defence introduced a terminal verification/whitelist system requiring registration of all operational terminals."
+    },
+    "competition": {
+      "label": "Quest for UASAT",
+      "description": "Ukraine is developing UASAT, its first national LEO satellite project, to achieve national autonomy in satellite communications."
+    },
+    "key_gap": {
+      "label": "Political Risk",
+      "description": "Geofencing restrictions and the lack of Starlink access over occupied territories have highlighted the strategic dangers of overreliance on a single foreign provider."
+    }
+  },
+  "quote": null,
+  "quote_attribution": null,
+  "summary": "Ukraine represents the most extreme sovereignty risk case among studied countries, and the only one where LEO infrastructure is a direct military and survival tool. Approximately 100,000 Starlink terminals are used by the Armed Forces (160,000+ total nationwide), alongside 1,000 German-funded OneWeb terminals. Emergency clearance under martial law has bypassed standard regulatory frameworks entirely. The strategic risk materialized concretely: Starlink geofencing restrictions prevented use in occupied territories including Crimea, directly constraining military operations. Provider leadership's political alignment with the Trump administration creates an additional layer of strategic vulnerability. Ukraine is now fast-tracking the UASAT national satellite project ($634M, October 2026 launch target) as a sovereignty response — but this comes reactively, after deep dependency has already been established.",
+  "timeline": [
+    {
+      "provider": "Starlink",
+      "info": "First mention",
+      "date": "2022-02-26",
+      "category": "contact"
+    },
+    {
+      "provider": "Starlink",
+      "info": "Service launch",
+      "date": "2022-02-28",
+      "category": "launch"
+    },
+    {
+      "provider": "Starlink",
+      "info": "Authorization",
+      "date": "2022-04",
+      "category": "authorization"
+    },
+    {
+      "provider": "OneWeb",
+      "info": "First mention",
+      "date": "2025-01",
+      "category": "contact"
+    },
+    {
+      "provider": "OneWeb",
+      "info": "Authorization",
+      "date": "2025-06",
+      "category": "authorization"
+    },
+    {
+      "provider": "OneWeb",
+      "info": "Service launch",
+      "date": "2025-09",
+      "category": "launch"
+    },
+    {
+      "provider": "UASAT LEO",
+      "info": "First mention",
+      "date": "2025-01",
+      "category": "contact"
+    },
+    {
+      "provider": "UASAT LEO",
+      "info": "Service launch (target)",
+      "date": "2026-10",
+      "category": "launch"
+    }
+  ],
+  "market_structure": {
+    "providers": [
+      {
+        "name": "Starlink",
+        "local_entity": null,
+        "status": "operational"
+      },
+      {
+        "name": "OneWeb",
+        "local_entity": "German-funded",
+        "status": "operational"
+      }
+    ],
+    "licensing_pathway": "Emergency",
+    "licensing_pathway_note": "Rapid emergency clearance under martial law; standard regulatory frameworks suspended. Mandatory terminal whitelist/verification system introduced in 2026 to prevent misuse."
+  },
+  "governance_scorecard": {
+    "qos_obligations": false,
+    "outage_reporting_required": false,
+    "local_data_landing_mandate": false,
+    "local_partner_requirement": false,
+    "foreign_ownership_exception": false,
+    "public_consultation": false,
+    "cybersecurity_audit": false,
+    "summary_note": "0 of 7 governance indicators met. There were no public consultations on any LEO initiative due to martial law; national security coordination was prioritized over traditional telecom regulatory oversight, leaving civilian governance aspects underdefined."
+  },
+  "red_flags": [
+    {
+      "severity": "critical",
+      "text": "Strategic military overreliance on a single foreign provider whose leadership has direct political alignment with Russia's most prominent foreign ally"
+    },
+    {
+      "severity": "critical",
+      "text": "Geofencing restrictions by Starlink in occupied territories (including Crimea) hindered Ukrainian military capacity"
+    },
+    {
+      "severity": "high",
+      "text": "Emergency/martial law clearance bypasses all standard regulatory and public interest frameworks"
+    },
+    {
+      "severity": "moderate",
+      "text": "$634M national UASAT project — necessary but high-cost response to dependency that could have been mitigated earlier"
+    }
+  ],
+  "policy_levers": [
+    "Accelerate UASAT to reduce single-provider military dependency",
+    "Expand OneWeb and European-produced terminal deployment",
+    "Establish post-war civilian data governance framework",
+    "Advocate for anti-geofencing provisions in international satellite governance (ITU/WRC-27)"
+  ]
+}

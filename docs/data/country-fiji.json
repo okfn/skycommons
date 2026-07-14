@@ -1,0 +1,123 @@
+{
+  "id": "fiji",
+  "name": "Fiji",
+  "iso_code": "FJ",
+  "region": "Pacific",
+  "report_date": "2026",
+  "risk_level": "high",
+  "providers": {
+    "authorized": 1,
+    "operational": 1
+  },
+  "card_title": "Connectivity as a Disaster Resilience Lifeline",
+  "card_blurb": "Fiji, an archipelago of 332 islands, views LEO technology as a \"game-changer\" for its maritime communities. Licensing was framed as a necessity for disaster resilience, particularly given the vulnerability of submarine cables.",
+  "header_info": "332 islands · 930,000 people · 1.3 million km² of ocean · 1 LEO provider licensed",
+  "key_finding": "126 public USO sites connected — but zero quality-of-service or outage reporting obligations imposed on the provider",
+  "comparative_analysis": {
+    "primary_driver": {
+      "label": "Disaster Resilience",
+      "description": "LEO licensing was framed as a strategic necessity to provide a disaster-resilient alternative to submarine cables, which are historically vulnerable in the archipelago."
+    },
+    "local_presence": {
+      "label": "Registered Pte Ltd",
+      "description": "Starlink operates as a registered local entity (Starlink Fiji Pte Limited) and was granted both a commercial and spectrum license to operate."
+    },
+    "competition": {
+      "label": "Exploring OneWeb",
+      "description": "Although Starlink was initially licensed as a named operator, the government is actively exploring OneWeb and Amazon Kuiper to introduce market diversity and competitive pressure."
+    },
+    "key_gap": {
+      "label": "Quality Standards",
+      "description": "There are currently no publicly disclosed quality-of-service standards, mandatory outage reporting, or transparent cybersecurity audit requirements specific to LEO services in Fiji."
+    }
+  },
+  "quote": null,
+  "quote_attribution": null,
+  "summary": "For Fiji's 332-island archipelago — spread across 1.3 million km² of ocean — LEO connectivity is a structural necessity, not a market choice. Submarine cable vulnerabilities have made satellite internet a lifeline for disaster resilience. Starlink, registered locally as Starlink Fiji Pte Limited, received commercial and spectrum licenses on 29 November 2023, with official service launching across 300+ islands on 20 May 2024. Phase 1 covers 126 USO sites across Lau, Kadavu, and Namosi, targeting 111,300 remote Fijians — a leap from just 124 satellite subscriptions nationally in 2020. Early evidence shows benefits in education, telemedicine, and emergency communications. Yet access was granted with no public consultation, no QoS obligations, no outage reporting, and no binding coverage mandates.",
+  "timeline": [
+    {
+      "provider": "Starlink",
+      "info": "First mention",
+      "date": "2023-11-17",
+      "category": "contact"
+    },
+    {
+      "provider": "Starlink",
+      "info": "Authorization",
+      "date": "2023-11-29",
+      "category": "authorization"
+    },
+    {
+      "provider": "Starlink",
+      "info": "Service launch",
+      "date": "2024-05-20",
+      "category": "launch"
+    }
+  ],
+  "market_structure": {
+    "providers": [
+      {
+        "name": "Starlink",
+        "local_entity": "Starlink Fiji Pte Limited",
+        "status": "operational"
+      },
+      {
+        "name": "OneWeb",
+        "local_entity": null,
+        "status": "prospective"
+      },
+      {
+        "name": "Amazon Kuiper",
+        "local_entity": null,
+        "status": "prospective"
+      }
+    ],
+    "licensing_pathway": "Standard",
+    "licensing_pathway_note": "Case-specific regulatory approval — no open competitive procurement, no public consultation process.",
+    "uso_rollout": "126 USO sites connected in Phase 1 across Lau, Kadavu, and Namosi (schools and clinics)."
+  },
+  "governance_scorecard": {
+    "qos_obligations": false,
+    "outage_reporting_required": false,
+    "local_data_landing_mandate": false,
+    "local_partner_requirement": false,
+    "foreign_ownership_exception": false,
+    "public_consultation": false,
+    "cybersecurity_audit": false,
+    "summary_note": "0 of 7 governance indicators met."
+  },
+  "red_flags": [
+    {
+      "severity": "high",
+      "text": "No quality-of-service standards or mandatory outage reporting obligations for any LEO provider — including the 126 schools and clinics dependent on the service."
+    },
+    {
+      "severity": "high",
+      "text": "Entry-level packages estimated at 30–50% of monthly GNI per capita — unaffordable for the communities this programme targets."
+    },
+    {
+      "severity": "high",
+      "text": "No public consultation process — licensing proceeded through case-specific regulatory approval with no open multi-provider selection."
+    },
+    {
+      "severity": "moderate",
+      "text": "Single licensed provider with no competitive alternative — de facto Starlink monopoly over critical public service infrastructure."
+    },
+    {
+      "severity": "moderate",
+      "text": "126 USO sites connected with no binding service guarantees, no refund mechanisms, and no cybersecurity requirements."
+    },
+    {
+      "severity": "moderate",
+      "text": "Limited public information on cross-border data transfers and storage arrangements for Fijian users."
+    }
+  ],
+  "policy_levers": [
+    "Mandatory QoS standards and outage reporting for all USO-site providers",
+    "Open, competitive multi-provider licensing to end de facto Starlink monopoly",
+    "Affordability threshold regulation linked to GNI per capita",
+    "Binding coverage mandates attached directly to operating licenses",
+    "Cross-border data governance framework and cybersecurity audit requirements",
+    "Public consultation requirement for future LEO licensing decisions"
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "id": "nigeria",
+  "name": "Nigeria",
+  "iso_code": "NG",
+  "region": "Africa",
+  "report_date": "2026",
+  "risk_level": "moderate",
+  "providers": {
+    "authorized": 5,
+    "operational": 2
+  },
+  "card_title": "The Most Advanced Model, the Deepest Affordability Crisis",
+  "card_blurb": "Over 19,000 terrestrial fiber cuts in early 2025 made satellite connectivity a strategic necessity. Nigeria has since adopted the most advanced sovereignty protections of any studied country — yet hardware costs 4.5 months of minimum wage.",
+  "header_info": "5 providers authorized · 2 operational · 128 million Nigerians unconnected",
+  "key_finding": "Most advanced sovereignty model of all studied countries — yet hardware costs 4.5 months of minimum wage, excluding the majority",
+  "comparative_analysis": {
+    "primary_driver": {
+      "label": "Diversification",
+      "description": "Nigeria transitioned in 2026 from a Starlink-only model to a multi-constellation policy to ensure market resilience and end single-provider dominance."
+    },
+    "local_presence": {
+      "label": "Local Gateway Mandate",
+      "description": "Nigeria mandates that LEO providers land data at local gateways and form local partnerships to ensure digital sovereignty."
+    },
+    "competition": {
+      "label": "Multi-constellation",
+      "description": "Ending Starlink's single-provider dominance through the issuance of multiple permits has created a diverse and competitive ecosystem."
+    },
+    "key_gap": {
+      "label": "Local Support",
+      "description": "A key gap is the absence of a local technical presence requirement, leaving rural users without physical support for hardware failures."
+    }
+  },
+  "quote": null,
+  "quote_attribution": null,
+  "summary": "Nigeria's LEO story is defined by crisis and inequality. Over 19,000 terrestrial fiber cuts in early 2025 made satellite connectivity a strategic necessity rather than a planned transition. In 2026, the market transitioned from a Starlink monopoly toward a multi-constellation framework with five authorized providers (two operational — Starlink and Eutelsat OneWeb — and three more holding 7-year landing permits). Nigeria has also adopted the most advanced sovereignty protections of any studied country — mandating local data gateway landing, local partnerships, and a biometric NIN registration requirement for all Starlink users. Yet the hardware barrier remains extreme: at ₦318,000, a Starlink Mini kit costs 4.5 months of minimum-wage income. With 128 million Nigerians still unconnected and Amazon Leo targeting 400 Mbps to disrupt pricing, Nigeria simultaneously represents the best governance model and the deepest affordability crisis.",
+  "timeline": [
+    {
+      "provider": "Starlink",
+      "info": "First mention",
+      "date": "2021-05",
+      "category": "contact"
+    },
+    {
+      "provider": "Starlink",
+      "info": "ISP & Gateway licenses",
+      "date": "2022-05",
+      "category": "licensing"
+    },
+    {
+      "provider": "Starlink",
+      "info": "Authorization",
+      "date": "2022-12",
+      "category": "authorization"
+    },
+    {
+      "provider": "Starlink",
+      "info": "Service launch",
+      "date": "2023-01-31",
+      "category": "launch"
+    },
+    {
+      "provider": "OneWeb",
+      "info": "First mention",
+      "date": "2023-05",
+      "category": "contact"
+    },
+    {
+      "provider": "OneWeb",
+      "info": "Authorization (NIGCOMSAT deal)",
+      "date": "2025-01",
+      "category": "authorization"
+    },
+    {
+      "provider": "OneWeb",
+      "info": "Service launch",
+      "date": "2025-06",
+      "category": "launch"
+    },
+    {
+      "provider": "Amazon Leo",
+      "info": "Authorization",
+      "date": "2026-01",
+      "category": "authorization"
+    },
+    {
+      "provider": "Amazon Leo",
+      "info": "Service launch",
+      "date": "2026-02-28",
+      "category": "launch"
+    }
+  ],
+  "market_structure": {
+    "providers": [
+      {
+        "name": "Starlink",
+        "local_entity": null,
+        "status": "operational"
+      },
+      {
+        "name": "Eutelsat OneWeb",
+        "local_entity": "NIGCOMSAT partnership",
+        "status": "operational"
+      },
+      {
+        "name": "Amazon Leo",
+        "local_entity": null,
+        "status": "authorized"
+      },
+      {
+        "name": "BeetleSat",
+        "local_entity": null,
+        "status": "authorized"
+      },
+      {
+        "name": "Satelio IoT",
+        "local_entity": null,
+        "status": "authorized"
+      }
+    ],
+    "licensing_pathway": "Structured (2026 reform)",
+    "licensing_pathway_note": "7-year landing-permit model; mandates local data gateway and local partnerships. All Starlink users required to link terminals to national ID (NIN) as of December 31, 2025. Most advanced regulatory framework of studied countries."
+  },
+  "governance_scorecard": {
+    "qos_obligations": true,
+    "outage_reporting_required": false,
+    "local_data_landing_mandate": true,
+    "local_partner_requirement": true,
+    "foreign_ownership_exception": false,
+    "public_consultation": false,
+    "cybersecurity_audit": false,
+    "summary_note": "3 of 7 governance indicators met — the strongest scorecard among studied countries. A mandatory cybersecurity audit is not yet an active requirement; the pending National Digital Economy and E-Governance Bill would empower NITDA to audit satellite providers in future."
+  },
+  "red_flags": [
+    {
+      "severity": "critical",
+      "text": "Hardware kit (₦318,000) costs 4.5 months of minimum wage — 93.8% of average monthly salary"
+    },
+    {
+      "severity": "critical",
+      "text": "128 million Nigerians remain unconnected — LEO reaches only those who can afford the hardware"
+    },
+    {
+      "severity": "high",
+      "text": "LEO became a strategic necessity due to infrastructure failure (19,000+ fiber cuts) — not a planned transition"
+    },
+    {
+      "severity": "moderate",
+      "text": "Satellite traffic can bypass local monitoring towers — intelligence and data residency gaps"
+    }
+  ],
+  "policy_levers": [
+    "Subsidized hardware programme linked to Universal Service Fund",
+    "Enforce and monitor local data gateway compliance",
+    "Expand multi-constellation competition to drive hardware price reduction",
+    "Address intelligence gap from satellite traffic bypassing local towers"
+  ]
+}
