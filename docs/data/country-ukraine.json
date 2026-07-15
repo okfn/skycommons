@@ -2,38 +2,48 @@
   "id": "ukraine",
   "name": "Ukraine",
   "iso_code": "UA",
+  "active": true,
   "region": "Europe",
   "report_date": "2026",
-  "risk_level": "moderate",
+  "risk": "moderate",
   "providers": {
     "authorized": 2,
     "operational": 2
   },
+  "population": "40.2 million",
   "card_title": "Wartime Emergency and the Quest for Autonomy",
   "card_blurb": "For Ukraine, LEO satellites are a survival tool. Following the 2022 invasion, Starlink became the backbone of military and civilian resilience — but geofencing restrictions in occupied territories exposed the cost of single-provider dependency.",
   "header_info": "2 providers operational · 160,000+ terminals nationwide · $634M national satellite project underway",
   "key_finding": "100,000 military terminals dependent on a single foreign provider — geofencing restrictions have already constrained operations in occupied territories",
-  "comparative_analysis": {
-    "primary_driver": {
-      "label": "National Defense",
-      "description": "For Ukraine, LEO satellites are a survival tool that has become the backbone of military and civilian resilience."
-    },
-    "local_presence": {
-      "label": "Whitelist System",
-      "description": "In 2026, the Ministry of Defence introduced a terminal verification/whitelist system requiring registration of all operational terminals."
-    },
-    "competition": {
-      "label": "Quest for UASAT",
-      "description": "Ukraine is developing UASAT, its first national LEO satellite project, to achieve national autonomy in satellite communications."
-    },
-    "key_gap": {
-      "label": "Political Risk",
-      "description": "Geofencing restrictions and the lack of Starlink access over occupied territories have highlighted the strategic dangers of overreliance on a single foreign provider."
-    }
-  },
-  "quote": null,
-  "quote_attribution": null,
   "summary": "Ukraine represents the most extreme sovereignty risk case among studied countries, and the only one where LEO infrastructure is a direct military and survival tool. Approximately 100,000 Starlink terminals are used by the Armed Forces (160,000+ total nationwide), alongside 1,000 German-funded OneWeb terminals. Emergency clearance under martial law has bypassed standard regulatory frameworks entirely. The strategic risk materialized concretely: Starlink geofencing restrictions prevented use in occupied territories including Crimea, directly constraining military operations. Provider leadership's political alignment with the Trump administration creates an additional layer of strategic vulnerability. Ukraine is now fast-tracking the UASAT national satellite project ($634M, October 2026 launch target) as a sovereignty response — but this comes reactively, after deep dependency has already been established.",
+  "primary_driver": "National Defense",
+  "research": [
+    {
+      "name": "Competition",
+      "risk": "low",
+      "text": "Starlink is Ukraine's dominant LEO provider by a margin with over 160,000 terminals nationwide (approximately 100,000 of them military). It functions as the national backbone. Eutelsat OneWeb, which is operational from early 2025 with German government funding, has fewer than 1,000 terminals. It only serves government and institutional users. A third channel, satellite services from Denmark via the European Defence Agency, covers a small number of military units, with no operator or scope publicly specified.<br/><br/>Ukraine is in active war, and the scale of Starlink's deployment reflects emergency speed and donor logistics. OneWeb entered through intergovernmental defence cooperation channels. It is not a retail competitor, it does not compete for civilian customers in a functioning market.<br/><br/>If launched in October 2026 as scheduled, UASAT LEO, Ukraine's first national satellite, would give Ukraine its first domestically controlled LEO capacity. But it will not resolve the immediate concentration problem."
+    },
+    {
+      "name": "Affordability",
+      "risk": "moderate",
+      "text": "Hardware and subscription costs have been substantially absorbed outside any retail market through donor-funded terminals (Poland alone contributed nearly 30,000), a temporary customs and VAT exemption from December 2022 to mid-2023, and the citizen-funded \"People's Starlink\" movement. But for households and institutions outside these channels, pricing has been steep.<br/><br/>Hardware cost roughly $385 at launch in early 2022, then doubled to $600–700 by late 2022 and remained in that range through 2025. Monthly subscriptions started at around $100, dropped to $60 in August 2022, rose again to $75 by late 2022, and have since ranged between $50 and $95 depending on tier. Current plans range from $38/month for a 50GB Priority tier to $95/month for unlimited Roam, with the standard Residential plan at $75/month. Business and high-capacity tiers reach $440/month. Against an average monthly salary of around $800 and mobile internet costs of around $10, even entry-level plan is a significant expense. Some users must also go through intermediaries or resellers due to delivery, customs, and banking complications during wartime adding cost and reducing transparency.<br/><br/>The procurement problem runs deeper for public institutions. Ukrainian public bodies cannot pay SpaceX directly because Starlink requires international card transactions, which conflict with public finance and procurement rules. Budget-funded institutions route payments through intermediaries and complex contract structures instead — a workaround that Transparency International Ukraine has warned can obscure how subscription costs are classified in procurement documents, particularly under simplified wartime procedures."
+    },
+    {
+      "name": "Accessibility",
+      "risk": "low",
+      "text": "Before 2022, Ukraine had strong connectivity, over 90% 4G coverage across settlements and fast fixed broadband in urban areas. Russia's invasion damaged fiber routes, power systems, and mobile towers across the country, creating connectivity blackouts in areas that previously had reliable service.<br/><br/>LEO terminals serve two distinct functions. In cities, they operate as backup infrastructure during power outages and network disruptions. In frontline communities, such as schools, hospitals, rural areas where mobile networks fail outright, they are the primary connection. Restoring physical infrastructure in active combat zones is largely impractical. This makes satellite the only viable option.<br/><br/>The main access limitation is geofencing. Starlink is unavailable in Russian-occupied territories, including Crimea. Communities under occupation have no access regardless of hardware availability.<br/><br/>Affordability is also a constraint for civilian households outside donor and subsidy channels. Coverage does not necessarily mean it is economically accessible for everyone who needs it."
+    },
+    {
+      "name": "Governance",
+      "risk": "high",
+      "text": "Ukraine's LEO governance is shaped by the same dual-use purpose. The terminals serve both military operations and civilian life. There is no regulatory framework built for either. Authorization proceeded under emergency conditions, and martial law has kept most of it unpublished ever since. This leaves civilian users with no oversight and military users with no formal accountability structure either.<br/><br/>Starlink's deployment began on February 26, 2022, with a tweet. Minister of Digital Transformation Mykhailo Fedorov publicly tagged Elon Musk requesting access; the first terminals arrived two days later. No formal decree preceded deployment. The National Commission for Communications Regulation issued the first authorization in April 2022, permitting use for critical infrastructure. A Cabinet of Ministers decree followed in December 2022, temporarily removing customs duties and VAT on satellite equipment imports.<br/><br/>No public consultation has been held on any LEO initiative. Decision-making sits within the Ministry of Digital Transformation, the Ministry of Defence, and international donor coordination structures. European alternatives, OneWeb and the Danish/EDA channel entered through intergovernmental and defence cooperation frameworks with even less public-facing transparency than Starlink."
+    },
+    {
+      "name": "Accountability",
+      "risk": "high",
+      "text": "Authorization terms for Starlink and the country's other satellite arrangements remain largely unpublished. Civil society organizations are actively calling for mandatory publication of authorizations and technical annexes within a fixed timeframe — a reform that has not yet materialized.<br/><br/>The one concrete, implemented compliance mechanism is the Ministry of Defence's 2026 terminal whitelist, registered through the DIIA e-government app. All Starlink terminals must be registered, including civilians at administrative service centers, businesses online, military through a separate secure channel. The purpose is to block Russian forces from using unauthorized terminals, rather than to enforce service standards or protect consumers. <br/><br/>Civilian users have no local regulatory channel for complaints. They rely on Starlink's own global support system, which is a private, extraterritorial mechanism with no Ukrainian accountability framework attached. There are no published quality-of-service standards, no cybersecurity audit requirements, and no coverage mandates specific to satellite operators.<br/><br/>Civil society has called for two reforms: mandatory publication of satellite authorizations and technical annexes within a fixed timeframe, and a structured requirement for resilience diversification across multiple providers. Neither has been adopted."
+    }
+  ],
   "timeline": [
     {
       "provider": "Starlink",
@@ -83,55 +93,5 @@
       "date": "2026-10",
       "category": "launch"
     }
-  ],
-  "market_structure": {
-    "providers": [
-      {
-        "name": "Starlink",
-        "local_entity": null,
-        "status": "operational"
-      },
-      {
-        "name": "OneWeb",
-        "local_entity": "German-funded",
-        "status": "operational"
-      }
-    ],
-    "licensing_pathway": "Emergency",
-    "licensing_pathway_note": "Rapid emergency clearance under martial law; standard regulatory frameworks suspended. Mandatory terminal whitelist/verification system introduced in 2026 to prevent misuse."
-  },
-  "governance_scorecard": {
-    "qos_obligations": false,
-    "outage_reporting_required": false,
-    "local_data_landing_mandate": false,
-    "local_partner_requirement": false,
-    "foreign_ownership_exception": false,
-    "public_consultation": false,
-    "cybersecurity_audit": false,
-    "summary_note": "0 of 7 governance indicators met. There were no public consultations on any LEO initiative due to martial law; national security coordination was prioritized over traditional telecom regulatory oversight, leaving civilian governance aspects underdefined."
-  },
-  "red_flags": [
-    {
-      "severity": "critical",
-      "text": "Strategic military overreliance on a single foreign provider whose leadership has direct political alignment with Russia's most prominent foreign ally"
-    },
-    {
-      "severity": "critical",
-      "text": "Geofencing restrictions by Starlink in occupied territories (including Crimea) hindered Ukrainian military capacity"
-    },
-    {
-      "severity": "high",
-      "text": "Emergency/martial law clearance bypasses all standard regulatory and public interest frameworks"
-    },
-    {
-      "severity": "moderate",
-      "text": "$634M national UASAT project — necessary but high-cost response to dependency that could have been mitigated earlier"
-    }
-  ],
-  "policy_levers": [
-    "Accelerate UASAT to reduce single-provider military dependency",
-    "Expand OneWeb and European-produced terminal deployment",
-    "Establish post-war civilian data governance framework",
-    "Advocate for anti-geofencing provisions in international satellite governance (ITU/WRC-27)"
   ]
 }

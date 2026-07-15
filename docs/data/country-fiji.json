@@ -1,39 +1,49 @@
 {
   "id": "fiji",
   "name": "Fiji",
+  "active": true,
   "iso_code": "FJ",
   "region": "Pacific",
   "report_date": "2026",
-  "risk_level": "high",
+  "risk": "high",
   "providers": {
     "authorized": 1,
     "operational": 1
   },
+  "population": "0.9 million",
   "card_title": "Connectivity as a Disaster Resilience Lifeline",
   "card_blurb": "Fiji, an archipelago of 332 islands, views LEO technology as a \"game-changer\" for its maritime communities. Licensing was framed as a necessity for disaster resilience, particularly given the vulnerability of submarine cables.",
-  "header_info": "332 islands · 930,000 people · 1.3 million km² of ocean · 1 LEO provider licensed",
+  "header_info": "332 islands · 1.3 million km² of ocean · 1 LEO provider licensed",
   "key_finding": "126 public USO sites connected — but zero quality-of-service or outage reporting obligations imposed on the provider",
-  "comparative_analysis": {
-    "primary_driver": {
-      "label": "Disaster Resilience",
-      "description": "LEO licensing was framed as a strategic necessity to provide a disaster-resilient alternative to submarine cables, which are historically vulnerable in the archipelago."
-    },
-    "local_presence": {
-      "label": "Registered Pte Ltd",
-      "description": "Starlink operates as a registered local entity (Starlink Fiji Pte Limited) and was granted both a commercial and spectrum license to operate."
-    },
-    "competition": {
-      "label": "Exploring OneWeb",
-      "description": "Although Starlink was initially licensed as a named operator, the government is actively exploring OneWeb and Amazon Kuiper to introduce market diversity and competitive pressure."
-    },
-    "key_gap": {
-      "label": "Quality Standards",
-      "description": "There are currently no publicly disclosed quality-of-service standards, mandatory outage reporting, or transparent cybersecurity audit requirements specific to LEO services in Fiji."
-    }
-  },
-  "quote": null,
-  "quote_attribution": null,
   "summary": "For Fiji's 332-island archipelago — spread across 1.3 million km² of ocean — LEO connectivity is a structural necessity, not a market choice. Submarine cable vulnerabilities have made satellite internet a lifeline for disaster resilience. Starlink, registered locally as Starlink Fiji Pte Limited, received commercial and spectrum licenses on 29 November 2023, with official service launching across 300+ islands on 20 May 2024. Phase 1 covers 126 USO sites across Lau, Kadavu, and Namosi, targeting 111,300 remote Fijians — a leap from just 124 satellite subscriptions nationally in 2020. Early evidence shows benefits in education, telemedicine, and emergency communications. Yet access was granted with no public consultation, no QoS obligations, no outage reporting, and no binding coverage mandates.",
+  "primary_driver": "Disaster Resilience",
+  "research": [
+    {
+      "name": "Competition",
+      "risk": "low",
+      "text": "Starlink is Ukraine's dominant LEO provider by a margin with over 160,000 terminals nationwide (approximately 100,000 of them military). It functions as the national backbone. Eutelsat OneWeb, which is operational from early 2025 with German government funding, has fewer than 1,000 terminals. It only serves government and institutional users. A third channel, satellite services from Denmark via the European Defence Agency, covers a small number of military units, with no operator or scope publicly specified.<br/><br/>Ukraine is in active war, and the scale of Starlink's deployment reflects emergency speed and donor logistics. OneWeb entered through intergovernmental defence cooperation channels. It is not a retail competitor, it does not compete for civilian customers in a functioning market.<br/><br/>If launched in October 2026 as scheduled, UASAT LEO, Ukraine's first national satellite, would give Ukraine its first domestically controlled LEO capacity. But it will not resolve the immediate concentration problem."
+    },
+    {
+      "name": "Affordability",
+      "risk": "moderate",
+      "text": "Hardware and subscription costs have been substantially absorbed outside any retail market through donor-funded terminals (Poland alone contributed nearly 30,000), a temporary customs and VAT exemption from December 2022 to mid-2023, and the citizen-funded \"People's Starlink\" movement. But for households and institutions outside these channels, pricing has been steep.<br/><br/>Hardware cost roughly $385 at launch in early 2022, then doubled to $600–700 by late 2022 and remained in that range through 2025. Monthly subscriptions started at around $100, dropped to $60 in August 2022, rose again to $75 by late 2022, and have since ranged between $50 and $95 depending on tier. Current plans range from $38/month for a 50GB Priority tier to $95/month for unlimited Roam, with the standard Residential plan at $75/month. Business and high-capacity tiers reach $440/month. Against an average monthly salary of around $800 and mobile internet costs of around $10, even entry-level plan is a significant expense. Some users must also go through intermediaries or resellers due to delivery, customs, and banking complications during wartime adding cost and reducing transparency.<br/><br/>The procurement problem runs deeper for public institutions. Ukrainian public bodies cannot pay SpaceX directly because Starlink requires international card transactions, which conflict with public finance and procurement rules. Budget-funded institutions route payments through intermediaries and complex contract structures instead — a workaround that Transparency International Ukraine has warned can obscure how subscription costs are classified in procurement documents, particularly under simplified wartime procedures."
+    },
+    {
+      "name": "Accessibility",
+      "risk": "low",
+      "text": "Before 2022, Ukraine had strong connectivity, over 90% 4G coverage across settlements and fast fixed broadband in urban areas. Russia's invasion damaged fiber routes, power systems, and mobile towers across the country, creating connectivity blackouts in areas that previously had reliable service.<br/><br/>LEO terminals serve two distinct functions. In cities, they operate as backup infrastructure during power outages and network disruptions. In frontline communities, such as schools, hospitals, rural areas where mobile networks fail outright, they are the primary connection. Restoring physical infrastructure in active combat zones is largely impractical. This makes satellite the only viable option.<br/><br/>The main access limitation is geofencing. Starlink is unavailable in Russian-occupied territories, including Crimea. Communities under occupation have no access regardless of hardware availability.<br/><br/>Affordability is also a constraint for civilian households outside donor and subsidy channels. Coverage does not necessarily mean it is economically accessible for everyone who needs it."
+    },
+    {
+      "name": "Governance",
+      "risk": "high",
+      "text": "Ukraine's LEO governance is shaped by the same dual-use purpose. The terminals serve both military operations and civilian life. There is no regulatory framework built for either. Authorization proceeded under emergency conditions, and martial law has kept most of it unpublished ever since. This leaves civilian users with no oversight and military users with no formal accountability structure either.<br/><br/>Starlink's deployment began on February 26, 2022, with a tweet. Minister of Digital Transformation Mykhailo Fedorov publicly tagged Elon Musk requesting access; the first terminals arrived two days later. No formal decree preceded deployment. The National Commission for Communications Regulation issued the first authorization in April 2022, permitting use for critical infrastructure. A Cabinet of Ministers decree followed in December 2022, temporarily removing customs duties and VAT on satellite equipment imports.<br/><br/>No public consultation has been held on any LEO initiative. Decision-making sits within the Ministry of Digital Transformation, the Ministry of Defence, and international donor coordination structures. European alternatives, OneWeb and the Danish/EDA channel entered through intergovernmental and defence cooperation frameworks with even less public-facing transparency than Starlink."
+    },
+    {
+      "name": "Accountability",
+      "risk": "high",
+      "text": "Authorization terms for Starlink and the country's other satellite arrangements remain largely unpublished. Civil society organizations are actively calling for mandatory publication of authorizations and technical annexes within a fixed timeframe — a reform that has not yet materialized.<br/><br/>The one concrete, implemented compliance mechanism is the Ministry of Defence's 2026 terminal whitelist, registered through the DIIA e-government app. All Starlink terminals must be registered, including civilians at administrative service centers, businesses online, military through a separate secure channel. The purpose is to block Russian forces from using unauthorized terminals, rather than to enforce service standards or protect consumers. <br/><br/>Civilian users have no local regulatory channel for complaints. They rely on Starlink's own global support system, which is a private, extraterritorial mechanism with no Ukrainian accountability framework attached. There are no published quality-of-service standards, no cybersecurity audit requirements, and no coverage mandates specific to satellite operators.<br/><br/>Civil society has called for two reforms: mandatory publication of satellite authorizations and technical annexes within a fixed timeframe, and a structured requirement for resilience diversification across multiple providers. Neither has been adopted."
+    }
+  ],
   "timeline": [
     {
       "provider": "Starlink",
@@ -53,71 +63,5 @@
       "date": "2024-05-20",
       "category": "launch"
     }
-  ],
-  "market_structure": {
-    "providers": [
-      {
-        "name": "Starlink",
-        "local_entity": "Starlink Fiji Pte Limited",
-        "status": "operational"
-      },
-      {
-        "name": "OneWeb",
-        "local_entity": null,
-        "status": "prospective"
-      },
-      {
-        "name": "Amazon Kuiper",
-        "local_entity": null,
-        "status": "prospective"
-      }
-    ],
-    "licensing_pathway": "Standard",
-    "licensing_pathway_note": "Case-specific regulatory approval — no open competitive procurement, no public consultation process.",
-    "uso_rollout": "126 USO sites connected in Phase 1 across Lau, Kadavu, and Namosi (schools and clinics)."
-  },
-  "governance_scorecard": {
-    "qos_obligations": false,
-    "outage_reporting_required": false,
-    "local_data_landing_mandate": false,
-    "local_partner_requirement": false,
-    "foreign_ownership_exception": false,
-    "public_consultation": false,
-    "cybersecurity_audit": false,
-    "summary_note": "0 of 7 governance indicators met."
-  },
-  "red_flags": [
-    {
-      "severity": "high",
-      "text": "No quality-of-service standards or mandatory outage reporting obligations for any LEO provider — including the 126 schools and clinics dependent on the service."
-    },
-    {
-      "severity": "high",
-      "text": "Entry-level packages estimated at 30–50% of monthly GNI per capita — unaffordable for the communities this programme targets."
-    },
-    {
-      "severity": "high",
-      "text": "No public consultation process — licensing proceeded through case-specific regulatory approval with no open multi-provider selection."
-    },
-    {
-      "severity": "moderate",
-      "text": "Single licensed provider with no competitive alternative — de facto Starlink monopoly over critical public service infrastructure."
-    },
-    {
-      "severity": "moderate",
-      "text": "126 USO sites connected with no binding service guarantees, no refund mechanisms, and no cybersecurity requirements."
-    },
-    {
-      "severity": "moderate",
-      "text": "Limited public information on cross-border data transfers and storage arrangements for Fijian users."
-    }
-  ],
-  "policy_levers": [
-    "Mandatory QoS standards and outage reporting for all USO-site providers",
-    "Open, competitive multi-provider licensing to end de facto Starlink monopoly",
-    "Affordability threshold regulation linked to GNI per capita",
-    "Binding coverage mandates attached directly to operating licenses",
-    "Cross-border data governance framework and cybersecurity audit requirements",
-    "Public consultation requirement for future LEO licensing decisions"
   ]
 }

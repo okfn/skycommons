@@ -2,38 +2,48 @@
   "id": "nigeria",
   "name": "Nigeria",
   "iso_code": "NG",
+  "active": false,
   "region": "Africa",
   "report_date": "2026",
-  "risk_level": "moderate",
+  "risk": "moderate",
   "providers": {
     "authorized": 5,
     "operational": 2
   },
+  "population": "242.7 million",
   "card_title": "The Most Advanced Model, the Deepest Affordability Crisis",
   "card_blurb": "Over 19,000 terrestrial fiber cuts in early 2025 made satellite connectivity a strategic necessity. Nigeria has since adopted the most advanced sovereignty protections of any studied country — yet hardware costs 4.5 months of minimum wage.",
   "header_info": "5 providers authorized · 2 operational · 128 million Nigerians unconnected",
   "key_finding": "Most advanced sovereignty model of all studied countries — yet hardware costs 4.5 months of minimum wage, excluding the majority",
-  "comparative_analysis": {
-    "primary_driver": {
-      "label": "Diversification",
-      "description": "Nigeria transitioned in 2026 from a Starlink-only model to a multi-constellation policy to ensure market resilience and end single-provider dominance."
-    },
-    "local_presence": {
-      "label": "Local Gateway Mandate",
-      "description": "Nigeria mandates that LEO providers land data at local gateways and form local partnerships to ensure digital sovereignty."
-    },
-    "competition": {
-      "label": "Multi-constellation",
-      "description": "Ending Starlink's single-provider dominance through the issuance of multiple permits has created a diverse and competitive ecosystem."
-    },
-    "key_gap": {
-      "label": "Local Support",
-      "description": "A key gap is the absence of a local technical presence requirement, leaving rural users without physical support for hardware failures."
-    }
-  },
-  "quote": null,
-  "quote_attribution": null,
   "summary": "Nigeria's LEO story is defined by crisis and inequality. Over 19,000 terrestrial fiber cuts in early 2025 made satellite connectivity a strategic necessity rather than a planned transition. In 2026, the market transitioned from a Starlink monopoly toward a multi-constellation framework with five authorized providers (two operational — Starlink and Eutelsat OneWeb — and three more holding 7-year landing permits). Nigeria has also adopted the most advanced sovereignty protections of any studied country — mandating local data gateway landing, local partnerships, and a biometric NIN registration requirement for all Starlink users. Yet the hardware barrier remains extreme: at ₦318,000, a Starlink Mini kit costs 4.5 months of minimum-wage income. With 128 million Nigerians still unconnected and Amazon Leo targeting 400 Mbps to disrupt pricing, Nigeria simultaneously represents the best governance model and the deepest affordability crisis.",
+  "primary_driver": "Diversification",
+  "research": [
+    {
+      "name": "Competition",
+      "risk": "low",
+      "text": "Starlink is Ukraine's dominant LEO provider by a margin with over 160,000 terminals nationwide (approximately 100,000 of them military). It functions as the national backbone. Eutelsat OneWeb, which is operational from early 2025 with German government funding, has fewer than 1,000 terminals. It only serves government and institutional users. A third channel, satellite services from Denmark via the European Defence Agency, covers a small number of military units, with no operator or scope publicly specified.<br/><br/>Ukraine is in active war, and the scale of Starlink's deployment reflects emergency speed and donor logistics. OneWeb entered through intergovernmental defence cooperation channels. It is not a retail competitor, it does not compete for civilian customers in a functioning market.<br/><br/>If launched in October 2026 as scheduled, UASAT LEO, Ukraine's first national satellite, would give Ukraine its first domestically controlled LEO capacity. But it will not resolve the immediate concentration problem."
+    },
+    {
+      "name": "Affordability",
+      "risk": "moderate",
+      "text": "Hardware and subscription costs have been substantially absorbed outside any retail market through donor-funded terminals (Poland alone contributed nearly 30,000), a temporary customs and VAT exemption from December 2022 to mid-2023, and the citizen-funded \"People's Starlink\" movement. But for households and institutions outside these channels, pricing has been steep.<br/><br/>Hardware cost roughly $385 at launch in early 2022, then doubled to $600–700 by late 2022 and remained in that range through 2025. Monthly subscriptions started at around $100, dropped to $60 in August 2022, rose again to $75 by late 2022, and have since ranged between $50 and $95 depending on tier. Current plans range from $38/month for a 50GB Priority tier to $95/month for unlimited Roam, with the standard Residential plan at $75/month. Business and high-capacity tiers reach $440/month. Against an average monthly salary of around $800 and mobile internet costs of around $10, even entry-level plan is a significant expense. Some users must also go through intermediaries or resellers due to delivery, customs, and banking complications during wartime adding cost and reducing transparency.<br/><br/>The procurement problem runs deeper for public institutions. Ukrainian public bodies cannot pay SpaceX directly because Starlink requires international card transactions, which conflict with public finance and procurement rules. Budget-funded institutions route payments through intermediaries and complex contract structures instead — a workaround that Transparency International Ukraine has warned can obscure how subscription costs are classified in procurement documents, particularly under simplified wartime procedures."
+    },
+    {
+      "name": "Accessibility",
+      "risk": "low",
+      "text": "Before 2022, Ukraine had strong connectivity, over 90% 4G coverage across settlements and fast fixed broadband in urban areas. Russia's invasion damaged fiber routes, power systems, and mobile towers across the country, creating connectivity blackouts in areas that previously had reliable service.<br/><br/>LEO terminals serve two distinct functions. In cities, they operate as backup infrastructure during power outages and network disruptions. In frontline communities, such as schools, hospitals, rural areas where mobile networks fail outright, they are the primary connection. Restoring physical infrastructure in active combat zones is largely impractical. This makes satellite the only viable option.<br/><br/>The main access limitation is geofencing. Starlink is unavailable in Russian-occupied territories, including Crimea. Communities under occupation have no access regardless of hardware availability.<br/><br/>Affordability is also a constraint for civilian households outside donor and subsidy channels. Coverage does not necessarily mean it is economically accessible for everyone who needs it."
+    },
+    {
+      "name": "Governance",
+      "risk": "high",
+      "text": "Ukraine's LEO governance is shaped by the same dual-use purpose. The terminals serve both military operations and civilian life. There is no regulatory framework built for either. Authorization proceeded under emergency conditions, and martial law has kept most of it unpublished ever since. This leaves civilian users with no oversight and military users with no formal accountability structure either.<br/><br/>Starlink's deployment began on February 26, 2022, with a tweet. Minister of Digital Transformation Mykhailo Fedorov publicly tagged Elon Musk requesting access; the first terminals arrived two days later. No formal decree preceded deployment. The National Commission for Communications Regulation issued the first authorization in April 2022, permitting use for critical infrastructure. A Cabinet of Ministers decree followed in December 2022, temporarily removing customs duties and VAT on satellite equipment imports.<br/><br/>No public consultation has been held on any LEO initiative. Decision-making sits within the Ministry of Digital Transformation, the Ministry of Defence, and international donor coordination structures. European alternatives, OneWeb and the Danish/EDA channel entered through intergovernmental and defence cooperation frameworks with even less public-facing transparency than Starlink."
+    },
+    {
+      "name": "Accountability",
+      "risk": "high",
+      "text": "Authorization terms for Starlink and the country's other satellite arrangements remain largely unpublished. Civil society organizations are actively calling for mandatory publication of authorizations and technical annexes within a fixed timeframe — a reform that has not yet materialized.<br/><br/>The one concrete, implemented compliance mechanism is the Ministry of Defence's 2026 terminal whitelist, registered through the DIIA e-government app. All Starlink terminals must be registered, including civilians at administrative service centers, businesses online, military through a separate secure channel. The purpose is to block Russian forces from using unauthorized terminals, rather than to enforce service standards or protect consumers. <br/><br/>Civilian users have no local regulatory channel for complaints. They rely on Starlink's own global support system, which is a private, extraterritorial mechanism with no Ukrainian accountability framework attached. There are no published quality-of-service standards, no cybersecurity audit requirements, and no coverage mandates specific to satellite operators.<br/><br/>Civil society has called for two reforms: mandatory publication of satellite authorizations and technical annexes within a fixed timeframe, and a structured requirement for resilience diversification across multiple providers. Neither has been adopted."
+    }
+  ],
   "timeline": [
     {
       "provider": "Starlink",
@@ -89,70 +99,5 @@
       "date": "2026-02-28",
       "category": "launch"
     }
-  ],
-  "market_structure": {
-    "providers": [
-      {
-        "name": "Starlink",
-        "local_entity": null,
-        "status": "operational"
-      },
-      {
-        "name": "Eutelsat OneWeb",
-        "local_entity": "NIGCOMSAT partnership",
-        "status": "operational"
-      },
-      {
-        "name": "Amazon Leo",
-        "local_entity": null,
-        "status": "authorized"
-      },
-      {
-        "name": "BeetleSat",
-        "local_entity": null,
-        "status": "authorized"
-      },
-      {
-        "name": "Satelio IoT",
-        "local_entity": null,
-        "status": "authorized"
-      }
-    ],
-    "licensing_pathway": "Structured (2026 reform)",
-    "licensing_pathway_note": "7-year landing-permit model; mandates local data gateway and local partnerships. All Starlink users required to link terminals to national ID (NIN) as of December 31, 2025. Most advanced regulatory framework of studied countries."
-  },
-  "governance_scorecard": {
-    "qos_obligations": true,
-    "outage_reporting_required": false,
-    "local_data_landing_mandate": true,
-    "local_partner_requirement": true,
-    "foreign_ownership_exception": false,
-    "public_consultation": false,
-    "cybersecurity_audit": false,
-    "summary_note": "3 of 7 governance indicators met — the strongest scorecard among studied countries. A mandatory cybersecurity audit is not yet an active requirement; the pending National Digital Economy and E-Governance Bill would empower NITDA to audit satellite providers in future."
-  },
-  "red_flags": [
-    {
-      "severity": "critical",
-      "text": "Hardware kit (₦318,000) costs 4.5 months of minimum wage — 93.8% of average monthly salary"
-    },
-    {
-      "severity": "critical",
-      "text": "128 million Nigerians remain unconnected — LEO reaches only those who can afford the hardware"
-    },
-    {
-      "severity": "high",
-      "text": "LEO became a strategic necessity due to infrastructure failure (19,000+ fiber cuts) — not a planned transition"
-    },
-    {
-      "severity": "moderate",
-      "text": "Satellite traffic can bypass local monitoring towers — intelligence and data residency gaps"
-    }
-  ],
-  "policy_levers": [
-    "Subsidized hardware programme linked to Universal Service Fund",
-    "Enforce and monitor local data gateway compliance",
-    "Expand multi-constellation competition to drive hardware price reduction",
-    "Address intelligence gap from satellite traffic bypassing local towers"
   ]
 }
