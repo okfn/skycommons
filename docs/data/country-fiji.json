@@ -1,7 +1,7 @@
 {
   "id": "fiji",
   "name": "Fiji",
-  "active": true,
+  "active": false,
   "iso_code": "FJ",
   "region": "Pacific",
   "report_date": "2026",
@@ -11,8 +11,8 @@
     "operational": 1
   },
   "population": "0.9 million",
-  "card_title": "Connectivity as a Disaster Resilience Lifeline",
-  "card_blurb": "Fiji, an archipelago of 332 islands, views LEO technology as a \"game-changer\" for its maritime communities. Licensing was framed as a necessity for disaster resilience, particularly given the vulnerability of submarine cables.",
+  "card_title": "A disaster-resilience measure.",
+  "card_blurb": " Starlink is the only licensed and operational LEO provider in Fiji, bringing telemedicine and online schooling to outer island communities, but with virtually no transparency or accountability.",
   "header_info": "332 islands · 1.3 million km² of ocean · 1 LEO provider licensed",
   "key_finding": "126 public USO sites connected — but zero quality-of-service or outage reporting obligations imposed on the provider",
   "summary": "For Fiji's 332-island archipelago — spread across 1.3 million km² of ocean — LEO connectivity is a structural necessity, not a market choice. Submarine cable vulnerabilities have made satellite internet a lifeline for disaster resilience. Starlink, registered locally as Starlink Fiji Pte Limited, received commercial and spectrum licenses on 29 November 2023, with official service launching across 300+ islands on 20 May 2024. Phase 1 covers 126 USO sites across Lau, Kadavu, and Namosi, targeting 111,300 remote Fijians — a leap from just 124 satellite subscriptions nationally in 2020. Early evidence shows benefits in education, telemedicine, and emergency communications. Yet access was granted with no public consultation, no QoS obligations, no outage reporting, and no binding coverage mandates.",

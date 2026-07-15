@@ -1,7 +1,7 @@
 {
   "id": "brazil",
   "name": "Brazil",
-  "active": true,
+  "active": false,
   "iso_code": "BR",
   "region": "Americas",
   "report_date": "March 2026",
@@ -11,8 +11,8 @@
     "operational": 2
   },
   "population": "213.7 million",
-  "card_title": "Executive Lobbying and the Quest for Autonomy",
-  "card_blurb": "Brazil is Starlink's second-largest global market, with 250,000 active users and 85% annual growth in 2025. Despite strong urban penetration, only 22% of Brazilians meet 'meaningful connectivity' standards.",
+  "card_title": "Some connectivity gaps are being closed.",
+  "card_blurb": "Starlink is the dominant provider, shaped by executive lobbying and direct deals. Lack of accountability is a civil society concern, as is what data is collected about the Amazon region and beyond.",
   "header_info": "5 providers authorized · 250,000 Starlink subscribers · R$102,677 licensing fee until 2027",
   "key_finding": "R$102,677 in licensing fees for rights worth billions — less than R$5 per satellite per year",
   "summary": "Brazil is Starlink's second-largest global market, with 250,000 active users and 85% annual growth in 2025. Despite 85% urban internet penetration, only 22% of Brazilians meet 'meaningful connectivity' standards, exposing a sharp class divide: 83% of Class A households are meaningfully connected versus just 1% of Class DE. The government granted Starlink exploitation rights for R$102,677 until 2027 — less than R$5 per satellite per year — raising serious questions about regulatory capture. The 2024 X/Twitter ban crisis, in which Musk threatened to defy Brazilian court orders, prompted the reactive authorization of SpaceSail as a geopolitical hedge. Meanwhile, 50 Starlink terminals were seized from illegal mining operations in Yanomami indigenous territory, illustrating the governance vacuum around infrastructure misuse.",
