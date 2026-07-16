@@ -7,7 +7,7 @@
   "report_date": "2026",
   "risk": "moderate",
   "providers": {
-    "authorized": 2,
+    "authorized": 3,
     "operational": 2
   },
   "population": "40.2 million",
@@ -29,7 +29,7 @@
         },
         {
           "name": "Authorised",
-          "info": "Unknown (military)<br/>UASAT LEO (planned)"
+          "info": "UASAT LEO (planned)"
         }
       ]
     },
