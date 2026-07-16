@@ -13,7 +13,7 @@
   "population": "40.2 million",
   "card_title": "Wartime dependency on a single provider.",
   "card_blurb": "Starlink was deployed within days of an invasion by Russia in 2022. Now, LEO satellites serve as the national connectivity backbone for military use—as well as for schools, hospitals, and homes.",
-  "header_info": "Population 40 million · Active war · 5 million+ Starlink users",
+  "header_info": "Population 40 million · 5 million+ Starlink users",
   "key_finding": "100,000 military terminals dependent on a single foreign provider — geofencing restrictions have already constrained operations in occupied territories",
   "summary": "Within days of a military invasion by Russia in 2022, Starlink was deployed under emergency authorization. Today, LEO satellites serve as the national connectivity backbone, with over 160,000 terminals across the country, approximately 100,000 of them military. The same terminals used for drone operations and to support military command-and-control also provide internet access to schools, hospitals, and civilian households. This dual-use function emerged from necessity—and Starlink now counts over <a href='https://www.globalbankingandfinance.com/veon-expects-customers-using-starlink-ukraine-double-year/' target='_blank'>5 million users</a>.<br/><br/>The high dependency on a single foreign operator owned by Space X has had consequences for regional access and military operations in an active war. There are a few other operational providers for military and government use. Now, Ukraine is investing in a sovereign satellite—UASAT LEO—planned for launch in October 2026 at an estimated cost of $634 million.",
   "primary_driver": "National Defense",
