@@ -1,7 +1,7 @@
 {
   "id": "brazil",
   "name": "Brazil",
-  "active": false,
+  "active": true,
   "iso_code": "BR",
   "region": "Americas",
   "report_date": "March 2026",
@@ -13,44 +13,78 @@
   "population": "213.7 million",
   "card_title": "Some connectivity gaps are being closed.",
   "card_blurb": "Starlink is the dominant provider, shaped by executive lobbying and direct deals. Lack of accountability is a civil society concern, as is what data is collected about the Amazon region and beyond.",
-  "header_info": "5 providers authorized · 250,000 Starlink subscribers · R$102,677 licensing fee until 2027",
+  "header_info": "Population: 213 million · 1 million Starlink subscribers",
   "key_finding": "R$102,677 in licensing fees for rights worth billions — less than R$5 per satellite per year",
-  "summary": "Brazil is Starlink's second-largest global market, with 250,000 active users and 85% annual growth in 2025. Despite 85% urban internet penetration, only 22% of Brazilians meet 'meaningful connectivity' standards, exposing a sharp class divide: 83% of Class A households are meaningfully connected versus just 1% of Class DE. The government granted Starlink exploitation rights for R$102,677 until 2027 — less than R$5 per satellite per year — raising serious questions about regulatory capture. The 2024 X/Twitter ban crisis, in which Musk threatened to defy Brazilian court orders, prompted the reactive authorization of SpaceSail as a geopolitical hedge. Meanwhile, 50 Starlink terminals were seized from illegal mining operations in Yanomami indigenous territory, illustrating the governance vacuum around infrastructure misuse.",
+  "summary": "Brazil is Starlink's second-largest market globally. Five LEO satellite providers are authorised to operate in the country, but only one—Starlink—operates at mass consumer scale. There is also high dependency on Starlink to connect remote areas in the Amazon region. Its authorisation in 2022 was shaped by executive-level lobbying rather than an arm's-length regulatory process. Since then, there have been moments of political friction with the company’s founder, Elon Musk—notably in 2024, when Brazil’s supreme court ordered the suspension of another Musk company, X (formerly Twitter) and he threatened to defy the order. In April 2025, the National Telecommunications Agency (Anatel) approved the further expansion of Starlink to 11,908 satellites on the same day as it also issued a regulatory alert for market concentration and gaps in space sustainability and digital sovereignty.",
   "primary_driver": "Executive Lobbying",
   "research": [
     {
       "name": "Competition",
-      "risk": "low",
-      "text": "Starlink is Ukraine's dominant LEO provider by a margin with over 160,000 terminals nationwide (approximately 100,000 of them military). It functions as the national backbone. Eutelsat OneWeb, which is operational from early 2025 with German government funding, has fewer than 1,000 terminals. It only serves government and institutional users. A third channel, satellite services from Denmark via the European Defence Agency, covers a small number of military units, with no operator or scope publicly specified.<br/><br/>Ukraine is in active war, and the scale of Starlink's deployment reflects emergency speed and donor logistics. OneWeb entered through intergovernmental defence cooperation channels. It is not a retail competitor, it does not compete for civilian customers in a functioning market.<br/><br/>If launched in October 2026 as scheduled, UASAT LEO, Ukraine's first national satellite, would give Ukraine its first domestically controlled LEO capacity. But it will not resolve the immediate concentration problem."
+      "risk": "high",
+      "text": "Brazil authorizes five LEO providers under the RGSat framework. Only Starlink currently offers internet services directly to consumers. OneWeb and Telesat serve enterprise and wholesale backhaul only. Amazon Leo (formerly Amazon Kuiper) has not yet launched. The market is practically monopolistic in the consumer segment. In 2023, Brazil’s Ministry of Education set a minimum internet speed for schools. Only Starlink could meet it, and that reinforces the lock-in. There are no LEO-specific consumer-rights instruments that govern exit costs or terminal portability. Starlink has 11,908 satellites authorized, giving it a footprint few rivals can match. Chinese company SpaceSail was authorised shortly after <a href='https://g1.globo.com/politica/noticia/2024/09/13/moraes-manda-transferir-r-182-milhoes-do-x-e-da-starlink-para-a-uniao-e-desbloqueia-contas-das-empresas.ghtml' target='_blank'>a very public confrontation</a> between Elon Musk and Brazil's Supreme Court in 2024, but is not yet operational.",
+      "indicators": [
+        {
+          "name": "Operational",
+          "info": "Starlink<br/>OneWeb (enterprise only)"
+        },
+        {
+          "name": "Authorised",
+          "info": "Telesat<br/>Amazon Leo (via Sky)<br/>SpaceSail"
+        }
+      ]
     },
     {
       "name": "Affordability",
       "risk": "moderate",
-      "text": "Hardware and subscription costs have been substantially absorbed outside any retail market through donor-funded terminals (Poland alone contributed nearly 30,000), a temporary customs and VAT exemption from December 2022 to mid-2023, and the citizen-funded \"People's Starlink\" movement. But for households and institutions outside these channels, pricing has been steep.<br/><br/>Hardware cost roughly $385 at launch in early 2022, then doubled to $600–700 by late 2022 and remained in that range through 2025. Monthly subscriptions started at around $100, dropped to $60 in August 2022, rose again to $75 by late 2022, and have since ranged between $50 and $95 depending on tier. Current plans range from $38/month for a 50GB Priority tier to $95/month for unlimited Roam, with the standard Residential plan at $75/month. Business and high-capacity tiers reach $440/month. Against an average monthly salary of around $800 and mobile internet costs of around $10, even entry-level plan is a significant expense. Some users must also go through intermediaries or resellers due to delivery, customs, and banking complications during wartime adding cost and reducing transparency.<br/><br/>The procurement problem runs deeper for public institutions. Ukrainian public bodies cannot pay SpaceX directly because Starlink requires international card transactions, which conflict with public finance and procurement rules. Budget-funded institutions route payments through intermediaries and complex contract structures instead — a workaround that Transparency International Ukraine has warned can obscure how subscription costs are classified in procurement documents, particularly under simplified wartime procedures."
+      "text": "Monthly consumer subscription costs range from $37-82 a month while commercial plans range from $48-455. Costs are a barrier for the lowest income earners, since the cheapest plan would still account for approximately 12% of a minimum-wage worker's monthly income. Given the high number of subscribers reported in the country, this suggests uptake among middle and upper-income households. Starlink operates in the rural Amazon region through many partnerships with nonprofits, the private sector, and agreements with public authorities, as well as grassroots initiatives. It is common for antennas to be donated to Amazon riverside (Ribeirinho) schools and other communities",
+      "indicators": [
+        {
+          "name": "Starlink subscription",
+          "info": "$37-82 / per month"
+        },
+        {
+          "name": "Starlink hardware cost",
+          "info": "$100–470"
+        }
+      ]
     },
     {
       "name": "Accessibility",
       "risk": "low",
-      "text": "Before 2022, Ukraine had strong connectivity, over 90% 4G coverage across settlements and fast fixed broadband in urban areas. Russia's invasion damaged fiber routes, power systems, and mobile towers across the country, creating connectivity blackouts in areas that previously had reliable service.<br/><br/>LEO terminals serve two distinct functions. In cities, they operate as backup infrastructure during power outages and network disruptions. In frontline communities, such as schools, hospitals, rural areas where mobile networks fail outright, they are the primary connection. Restoring physical infrastructure in active combat zones is largely impractical. This makes satellite the only viable option.<br/><br/>The main access limitation is geofencing. Starlink is unavailable in Russian-occupied territories, including Crimea. Communities under occupation have no access regardless of hardware availability.<br/><br/>Affordability is also a constraint for civilian households outside donor and subsidy channels. Coverage does not necessarily mean it is economically accessible for everyone who needs it."
+      "text": "Basic connectivity reaches 85% of urban and 74% of rural households in Brazil, but there are steep connectivity declines to 31% in the Southeast and 10–11% in the North and Northeast of the country, with stark divisions of access by income. In the absence of alternatives, Starlink has made real gains in the Amazon region (Amazônia Legal) specifically, reaching more than 90% of the region's municipalities. It reportedly serves health workers and schools in remote areas, including in Indigenous, Quilombola and Ribeirinho communities. Along with this access, there have been official pledges to build digital-literacy infrastructure and to establish community-controlled antenna management, reducing vulnerability to service interruptions from a single foreign operator. ",
+      "indicators": [
+        {
+          "name": "Population",
+          "info": "213 million"
+        },
+        {
+          "name": "Starlink users",
+          "info": "~ 1 million"
+        }
+      ]
     },
     {
       "name": "Governance",
       "risk": "high",
-      "text": "Ukraine's LEO governance is shaped by the same dual-use purpose. The terminals serve both military operations and civilian life. There is no regulatory framework built for either. Authorization proceeded under emergency conditions, and martial law has kept most of it unpublished ever since. This leaves civilian users with no oversight and military users with no formal accountability structure either.<br/><br/>Starlink's deployment began on February 26, 2022, with a tweet. Minister of Digital Transformation Mykhailo Fedorov publicly tagged Elon Musk requesting access; the first terminals arrived two days later. No formal decree preceded deployment. The National Commission for Communications Regulation issued the first authorization in April 2022, permitting use for critical infrastructure. A Cabinet of Ministers decree followed in December 2022, temporarily removing customs duties and VAT on satellite equipment imports.<br/><br/>No public consultation has been held on any LEO initiative. Decision-making sits within the Ministry of Digital Transformation, the Ministry of Defence, and international donor coordination structures. European alternatives, OneWeb and the Danish/EDA channel entered through intergovernmental and defence cooperation frameworks with even less public-facing transparency than Starlink."
+      "text": "In November 2021, Communications Minister Fábio Faria (Bolsonaro government) travelled to SpaceX's Texas headquarters ahead of any formal regulatory process. The following month, RGSat (Resolution 748/2021) established Brazil's LEO licensing framework, with a 10-day public comment window, with no provisions on data sovereignty, routing obligations, or digital governance. RGSat establishes a two-layer structure: Satellite Exploitation Rights for Orbital Operation (5 operators were authorized) and an SCM Broadband Licence for serving retail customers (Starlink only). There was limited civil society and community engagement. Anatel has since admitted that it was authorising first and properly assessing values later. Lobbying and direct communication has continued under the following administration (Lula government).",
+      "indicators": [
+        {
+          "name": "Primary driver",
+          "info": "Executive Lobbying"
+        },
+        {
+          "name": "Process",
+          "info": "Signs of improvement"
+        }
+      ]
     },
     {
       "name": "Accountability",
       "risk": "high",
-      "text": "Authorization terms for Starlink and the country's other satellite arrangements remain largely unpublished. Civil society organizations are actively calling for mandatory publication of authorizations and technical annexes within a fixed timeframe — a reform that has not yet materialized.<br/><br/>The one concrete, implemented compliance mechanism is the Ministry of Defence's 2026 terminal whitelist, registered through the DIIA e-government app. All Starlink terminals must be registered, including civilians at administrative service centers, businesses online, military through a separate secure channel. The purpose is to block Russian forces from using unauthorized terminals, rather than to enforce service standards or protect consumers. <br/><br/>Civilian users have no local regulatory channel for complaints. They rely on Starlink's own global support system, which is a private, extraterritorial mechanism with no Ukrainian accountability framework attached. There are no published quality-of-service standards, no cybersecurity audit requirements, and no coverage mandates specific to satellite operators.<br/><br/>Civil society has called for two reforms: mandatory publication of satellite authorizations and technical annexes within a fixed timeframe, and a structured requirement for resilience diversification across multiple providers. Neither has been adopted."
+      "text": "In April 2025, Anatel issued a regulatory alert conceding that the framework under which it was approving that expansion was inadequate. It formally identified market concentration, space sustainability, and digital sovereignty as systematic gaps and referred them to two internal committees (C-INT and CEO) for Regulatory Impact Analysis, with a full report and proposed resolution deferred to the second semester of 2026. A number of concrete failures were listed. For instance, that there were no binding coverage obligations attached to the Starlink authorisation, and no service quality benchmarks, or public interest duties. There was also no oversight over terminal distribution, which led to use of Starlink terminals by illegal gold miners in Indigenous territories. Full authorisation conditions and technical annexes are not routinely published in machine-readable form, and the Ministry of Communications was found to have denied meetings with Starlink that its own later disclosures confirmed took place. Compliance obligations do exist. There is a public-calamity clause, spectrum coordination—and for retail operators, Anatel's quality rules and data-protection law. Enforcement has occurred more than once: an account freeze, antenna seizures in Yanomami territory, and a binding 2025 identity-verification agreement. Researchers characterize these as reactive 'quick-fixes' addressing symptoms rather than the governance gaps in the original 2021–2022 authorisation."
     }
   ],
   "timeline": [
-    {
-      "provider": "Starlink",
-      "info": "First mention",
-      "date": "2020-12",
-      "category": "contact"
-    },
     {
       "provider": "Starlink",
       "info": "First formal step",
@@ -71,12 +105,6 @@
     },
     {
       "provider": "Telesat",
-      "info": "First mention",
-      "date": "2021-10",
-      "category": "contact"
-    },
-    {
-      "provider": "Telesat",
       "info": "Authorization",
       "date": "2022-05-19",
       "category": "authorization"
@@ -94,16 +122,10 @@
       "category": "launch"
     },
     {
-      "provider": "Amazon Kuiper",
+      "provider": "Amazon Leo",
       "info": "Authorization",
       "date": "2022-12",
       "category": "authorization"
-    },
-    {
-      "provider": "SpaceSail",
-      "info": "First mention",
-      "date": "2024-08",
-      "category": "contact"
     },
     {
       "provider": "SpaceSail",
